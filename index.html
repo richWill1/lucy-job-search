@@ -18,15 +18,85 @@ footer{border-top:1px solid var(--line);padding:28px 0 45px;color:var(--muted);f
 @media(max-width:800px){.map-shell{grid-template-columns:1fr}.map-panel{min-height:150px}.map{height:380px}}@media(max-width:500px){.toolbar{grid-template-columns:1fr}.hero p{font-size:16px}.card{padding:17px}.map{height:340px}.map-panel{min-height:170px}}
 .map-wrap{background:#fff;border:1px solid var(--line);border-radius:17px;padding:18px;margin:0 0 30px}.map-head{display:flex;justify-content:space-between;gap:15px;align-items:center;margin-bottom:12px}.map-head h3{margin:0}.map-shell{display:grid;grid-template-columns:minmax(0,1fr) 285px;gap:12px}.map{height:480px;border-radius:15px;overflow:hidden;background:#e9edf3}.map-panel{border:1px solid var(--line);border-radius:15px;padding:16px;background:linear-gradient(180deg,#ffffff,#f6f7fb);min-height:480px}.panel-empty{height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;color:var(--muted);gap:8px;padding:20px}.panel-empty strong{color:var(--ink);font-size:16px}.panel-empty span{font-size:13px;line-height:1.5}.panel-icon{width:46px;height:46px;border-radius:50%;display:grid;place-items:center;background:#eeeafd;font-size:21px;margin-bottom:4px}.panel-card h4{font-size:17px;line-height:1.2;margin:0 0 5px}.panel-company{font-weight:700;margin-bottom:12px}.panel-row{font-size:13px;color:#596477;padding:8px 0;border-top:1px solid var(--line)}.panel-badge{display:inline-block;margin:0 0 13px}.map-pin{position:relative;z-index:1000;width:34px;transition:transform .18s,filter .18s;height:32px;border-radius:50% 50% 50% 0;transform:rotate(-45deg);display:grid;place-items:center;border:3px solid #fff;box-shadow:0 5px 14px #17203344}.map-pin span{transform:rotate(45deg);font-size:14px}.map-pin.direct{background:#19a66a}.leaflet-marker-icon .map-pin{display:grid!important;opacity:1!important}.map-pin:hover{filter:brightness(1.12);transform:rotate(-45deg) scale(1.12)}.map-pin.active{transform:rotate(-45deg) scale(1.3);box-shadow:0 8px 22px #17203366}.home-pin{width:92px;height:42px;border-radius:22px;background:#172033;color:#fff;display:flex;align-items:center;justify-content:center;gap:6px;font-weight:800;box-shadow:0 7px 20px #17203355;border:3px solid #fff}.home-pin span{font-size:11px}.job-tip{border:0;border-radius:8px;background:#172033;color:#fff;font-weight:700;box-shadow:0 5px 15px #17203344}.job-tip:before{display:none}.map-pin.strong{background:#4d7ed1}.map-pin.transfer{background:#d79a22}.map-note{margin-top:10px;font-size:12px;color:var(--muted)}.legend{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}.legend span{font-size:12px;padding:6px 9px;border-radius:999px;background:#f1f3f7;display:inline-flex;align-items:center;gap:6px}.dot{width:8px;height:8px;border-radius:50%;display:inline-block}.dot.direct{background:#20a66a}.dot.strong{background:#4d7ed1}.dot.transfer{background:#d79a22}.level{font-size:12px;font-weight:800;padding:5px 8px;border-radius:999px;background:#eeeafd;color:#4b3cc2}.level.direct{background:#e7f6ee;color:#16794c}.level.strong{background:#eef4ff;color:#315c9b}.level.transfer{background:#fff4d8;color:#9a6500}.commute{margin:10px 0;padding:10px 12px;border-radius:10px;background:#f4f6f8;font-size:13px;line-height:1.45}.commute strong{font-weight:700}
 .map{position:relative}.pin-overlay{position:absolute;inset:0;z-index:500;pointer-events:none}.pin-overlay .job-pin{position:absolute;transform:translate(-50%,-100%);pointer-events:auto;width:30px;height:30px;border-radius:50% 50% 50% 0;transform-origin:center;rotate:-45deg;border:3px solid #fff;box-shadow:0 3px 10px rgba(0,0,0,.35);cursor:pointer}.pin-overlay .job-pin::after{content:'•';position:absolute;inset:0;display:grid;place-items:center;color:#fff;font-size:18px;rotate:45deg}.pin-overlay .job-pin.direct{background:#19a66a}.pin-overlay .job-pin.strong{background:#4d7ed1}.pin-overlay .job-pin.transfer{background:#d79a22}.pin-overlay .home-pin-overlay{position:absolute;transform:translate(-50%,-100%);background:#172033;color:#fff;border:3px solid #fff;border-radius:18px;padding:6px 11px;font-weight:800;font-size:12px;box-shadow:0 3px 10px rgba(0,0,0,.3);pointer-events:none;white-space:nowrap}.pin-overlay .job-label{position:absolute;transform:translate(10px,-50%);background:#172033;color:#fff;padding:4px 7px;border-radius:6px;font-size:11px;font-weight:700;white-space:nowrap;pointer-events:none;display:none}.pin-overlay .job-pin:hover + .job-label{display:block}
+
+/* Phone layout: keep controls, cards, commute text and map inside the viewport. */
+.wrap{width:100%;min-width:0}
+.toolbar,.info,.map-wrap,.card{min-width:0}
+input,select,button{max-width:100%;min-height:46px}
+button,a{-webkit-tap-highlight-color:transparent}
+.card,.info,.map-wrap{overflow-wrap:anywhere}
+.top{align-items:flex-start;min-width:0}
+.top>*{min-width:0}
+.top .small{text-align:right}
+.detail{max-width:100%;overflow-wrap:anywhere}
+.actions{flex-wrap:wrap}
+.apply,.source{min-height:44px;display:inline-flex;align-items:center;justify-content:center}
+.map{min-width:0;position:relative}
+.map-panel{min-width:0}
+.map-pin,.job-pin{touch-action:manipulation}
+.mobile-nav{display:none}
+@media(max-width:600px){
+  .wrap{padding-left:14px;padding-right:14px}
+  .hero{padding:30px 0 30px}
+  .hero h1{font-size:clamp(32px,9vw,42px);overflow-wrap:anywhere}
+  .hero p{font-size:16px;line-height:1.5}
+  .mobile-nav{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:7px;position:sticky;top:0;z-index:1100;margin:12px 0 8px;padding:7px;background:#ffffffed;border:1px solid var(--line);border-radius:13px;box-shadow:0 5px 18px #17203314;backdrop-filter:blur(8px)}
+  .mobile-nav a{min-width:0;min-height:42px;display:flex;align-items:center;justify-content:center;padding:6px 3px;border-radius:9px;text-align:center;text-decoration:none;color:var(--accent);font-size:13px;font-weight:800}
+  .mobile-nav a:focus-visible{outline:3px solid #8c80f1;outline-offset:1px}
+  .toolbar{grid-template-columns:minmax(0,1fr);gap:9px;padding:12px;border-radius:14px;margin-top:0}
+  input,select{min-width:0;font-size:16px}
+  .toolbar .btn{width:100%}
+  .meta{gap:5px;margin:18px 0 13px}
+  .updated{font-size:12px;line-height:1.45}
+  .info{padding:16px;margin-bottom:18px}
+  .chips{gap:6px}
+  .chip{font-size:12px;padding:7px 9px}
+  .grid{gap:12px;padding-bottom:28px}
+  .card{padding:15px;border-radius:14px;min-height:0}
+  .top{flex-direction:column;gap:6px}
+  .top .small{text-align:left;line-height:1.4}
+  h2{font-size:19px;line-height:1.25;overflow-wrap:anywhere}
+  .details{gap:6px;margin:12px 0}
+  .detail{font-size:12px;padding:7px 8px}
+  .commute{padding:10px;font-size:13px;line-height:1.5}
+  .fit{padding-top:12px}
+  .actions{gap:7px}
+  .apply{flex:1 1 145px}
+  .source{flex:1 1 100%;justify-content:flex-start;padding-left:2px}
+  .empty{padding:26px 16px}
+  .map-wrap{padding:13px;margin-bottom:20px}
+  .map-head{align-items:flex-start;flex-direction:column;gap:4px}
+  .map-head .small{font-size:12px}
+  .map-shell{grid-template-columns:minmax(0,1fr);gap:10px}
+  .map{height:clamp(280px,85vw,360px);border-radius:12px}
+  .map-panel{min-height:0;padding:14px}
+  .panel-empty{min-height:132px;padding:14px}
+  .legend{gap:6px}
+  .legend span{font-size:11px}
+  .pin-overlay .job-label{display:none}
+  footer{padding:22px 0 32px}
+}
+@media(max-width:360px){
+  .wrap{padding-left:11px;padding-right:11px}
+  .hero{padding-top:25px}
+  .toolbar{padding:10px}
+  .card{padding:13px}
+  .map-wrap{padding:11px}
+  .level{font-size:11px;padding:5px 7px}
+  .mobile-nav{gap:4px;padding:5px}
+  .mobile-nav a{font-size:12px}
+}
+
 </style>
 </head>
 <body>
 <header class="hero"><div class="wrap"><div class="eyebrow">Wakefield · Leeds · Next step</div><h1>Find the right next step.</h1><p>A broad shortlist of live vacancies across administration, libraries, customer service, community organisations and school-office roles — excluding TA, SEND and direct classroom work.</p></div></header>
 <main class="wrap">
-<section class="toolbar" aria-label="Job filters"><input id="search" placeholder="Search title, company or keyword…"><select id="type"><option value="">All types</option><option>Administration</option><option>Library</option><option>Customer service</option><option>Information resources</option><option>Community & charity</option></select><select id="hours"><option value="">Any hours</option><option value="part">Part-time</option><option value="full">Full-time</option><option value="hybrid">Hybrid</option></select><button class="btn" onclick="resetFilters()">Reset</button></section>
+<nav class="mobile-nav" aria-label="Page sections"><a href="#filters">Filters</a><a href="#map">Map</a><a href="#jobs">Jobs</a></nav>
+<section class="toolbar" id="filters" aria-label="Job filters"><input id="search" type="search" aria-label="Search jobs" placeholder="Search title, company or keyword…"><select id="type" aria-label="Filter by job type"><option value="">All types</option><option>Administration</option><option>Library</option><option>Customer service</option><option>Information resources</option><option>Community & charity</option></select><select id="hours" aria-label="Filter by hours or work pattern"><option value="">Any hours</option><option value="part">Part-time</option><option value="full">Full-time</option><option value="hybrid">Hybrid</option></select><button class="btn" type="button" onclick="resetFilters()">Reset filters</button></section>
 <div class="meta"><div class="count" id="count"></div><div class="updated">Vacancies verified 30 September 2026 · commute estimates from WF3 4DJ · Mini Clubman petrol estimate at ~40 mpg and £1.61/litre</div></div>
 <section class="info"><h3>Search focus</h3><p class="small">The search is deliberately broad. Schools are included where the role is office, administration, reception, finance, HR or similar — but TA, SEND, classroom and direct pupil-support roles are excluded. We also look across councils, NHS, universities, libraries, charities/VCSE, housing, healthcare, private employers and local community organisations. Only vacancies that can currently be verified as open are included.</p><div class="chips"><span class="chip">No TA / SEND</span><span class="chip">School admin OK</span><span class="chip">No SEND</span><span class="chip">Wakefield / Leeds</span><span class="chip">Transferable experience</span><span class="chip">Local community & charity</span></div></section>
-<section class="map-wrap"><div class="map-head"><div><div class="eyebrow" style="color:#687386">COMMUTE VIEW</div><h3>📍 Where the jobs are</h3></div><span class="small">From WF3 4DJ · click a pin</span></div><div class="map-shell"><div id="map" class="map"></div><aside id="map-panel" class="map-panel"><div class="panel-empty"><div class="panel-icon">🚗</div><strong>Select a job</strong><span>Click a pin to see the role, experience fit and estimated drive.</span></div></aside></div><div class="map-note">Clean road map · pins are approximate workplace locations</div><div class="legend"><span><i class="dot direct"></i> Direct experience</span><span><i class="dot strong"></i> Strong transferable fit</span><span><i class="dot transfer"></i> Transferable / stretch</span></div></section><section class="grid" id="grid"></section>
+<section class="map-wrap" aria-label="Job map"><div class="map-head"><div><div class="eyebrow" style="color:#687386">COMMUTE VIEW</div><h3>📍 Where the jobs are</h3></div><span class="small">From WF3 4DJ · click a pin</span></div><div class="map-shell"><div id="map" class="map" role="region" aria-label="Map of job locations"></div><aside id="map-panel" class="map-panel"><div class="panel-empty"><div class="panel-icon">🚗</div><strong>Select a job</strong><span>Click a pin to see the role, experience fit and estimated drive.</span></div></aside></div><div class="map-note">Clean road map · pins are approximate workplace locations</div><div class="legend"><span><i class="dot direct"></i> Direct experience</span><span><i class="dot strong"></i> Strong transferable fit</span><span><i class="dot transfer"></i> Transferable / stretch</span></div></section><section class="grid" id="jobs" aria-label="Job listings"></section>
 </main>
 <footer><div class="wrap">This is a personal job-search shortlist. Always check the employer's live advert before applying.</div></footer>
 <script>
