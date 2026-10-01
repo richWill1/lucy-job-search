@@ -74,13 +74,15 @@ def parse_job(url, source):
             pay = m.group(0).replace(" ", "") if m else "See live advert"
         valid = j.get("validThrough")
         close = valid[:10] if isinstance(valid, str) else ""
+        posted = j.get("datePosted")
+        posted = posted[:10] if isinstance(posted, str) else ""
         if not title or not ALLOWED.search(title + " " + desc) or EXCLUDED.search(title + " " + desc) or not LOC.search(location):
             return None
         lat, lng = infer_coords(location)
         return {
             "title": title, "company": company, "location": location, "type": "Library" if re.search(r"library|librarian", title, re.I) else "Customer service" if re.search(r"customer service|reception", title, re.I) else "Administration",
             "hours": "part" if re.search(r"part[- ]time|part time", desc, re.I) else "hybrid" if re.search(r"hybrid", desc, re.I) else "full",
-            "pay": pay, "close": close or "Open — check live advert",
+            "pay": pay, "close": close or "Open — check live advert", "posted": posted or "Not stated", "deadline": close or "Open — check live advert",
             "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
             "url": url, "source": source, "lat": lat, "lng": lng
         }
