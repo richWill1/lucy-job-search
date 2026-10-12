@@ -44,6 +44,22 @@
     "deadline": "12-month contract — starts 30 Nov"
   },
   {
+    "title": "Personal Care Assistant",
+    "company": "Leeds DP & PA Support Hub",
+    "location": "Thorpe, Wakefield None",
+    "type": "Administration",
+    "hours": "full",
+    "pay": "£27,872–£181,168",
+    "close": "Open — check live advert",
+    "posted": "2026-10-08",
+    "deadline": "Open — check live advert",
+    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
+    "url": "https://healthcarejobsearch.co.uk/jobs/personal-care-assistant-leeds-dp-pa-support-hub-adzuna-5919379113",
+    "source": "Healthcare Job Search",
+    "lat": 53.712,
+    "lng": -1.478
+  },
+  {
     "title": "Care Navigator / Receptionist",
     "company": "Lofthouse Surgery",
     "location": "Wakefield WF3 3SA",
@@ -207,6 +223,22 @@
     "deadline": "2026-10-22",
     "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
     "url": "https://healthcarejobsearch.co.uk/jobs/assistant-medical-bank-manager-the-mid-yorkshire-teaching-nhs-trust-c9377-26-0433",
+    "source": "Healthcare Job Search",
+    "lat": 53.712,
+    "lng": -1.478
+  },
+  {
+    "title": "Inpatient Catering Assistant",
+    "company": "The Mid Yorkshire Teaching NHS Trust",
+    "location": "Wakefield WF1 4DG",
+    "type": "Administration",
+    "hours": "full",
+    "pay": "£25,272–£25,272",
+    "close": "2026-10-22",
+    "posted": "2026-10-12",
+    "deadline": "2026-10-22",
+    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
+    "url": "https://healthcarejobsearch.co.uk/jobs/inpatient-catering-assistant-the-mid-yorkshire-teaching-nhs-trust-c9377-26-0439",
     "source": "Healthcare Job Search",
     "lat": 53.712,
     "lng": -1.478
