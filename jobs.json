@@ -150,6 +150,22 @@
     "lng": -1.478
   },
   {
+    "title": "CAMHS Band 6 Primary Practitioner (Fixed Term 1 year)",
+    "company": "South West Yorkshire Partnership NHS Trust",
+    "location": "Wakefield WF1 2TJ",
+    "type": "Administration",
+    "hours": "full",
+    "pay": "£39,959–£48,117",
+    "close": "2026-10-20",
+    "posted": "2026-10-13",
+    "deadline": "2026-10-20",
+    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
+    "url": "https://healthcarejobsearch.co.uk/jobs/camhs-band-6-primary-practitioner-fixed-term-1-year-south-west-yorkshire-partnership-nhs-trust-c9378-w1563",
+    "source": "Healthcare Job Search",
+    "lat": 53.712,
+    "lng": -1.478
+  },
+  {
     "title": "Lead Pharmacy Technician - Electronic Prescribing and Pharmacy",
     "company": "South West Yorkshire Partnership NHS Trust",
     "location": "Wakefield WF1 3SP",
@@ -194,6 +210,22 @@
     "source": "GOV.UK Teaching Vacancies",
     "posted": "Not stated",
     "deadline": "10 Oct 2026"
+  },
+  {
+    "title": "Medical Receptionist",
+    "company": "Stanley Health Centre",
+    "location": "Wakefield WF3 4HS",
+    "type": "Customer service",
+    "hours": "part",
+    "pay": "See live advert",
+    "close": "2026-10-30",
+    "posted": "2026-10-12",
+    "deadline": "2026-10-30",
+    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
+    "url": "https://healthcarejobsearch.co.uk/jobs/medical-receptionist-stanley-health-centre-a4132-26-0004",
+    "source": "Healthcare Job Search",
+    "lat": 53.712,
+    "lng": -1.478
   },
   {
     "title": "Administrative Assistant",
@@ -662,21 +694,5 @@
     "source": "jobs.ac.uk",
     "posted": "25 Sep 2026",
     "deadline": "9 Oct 2026"
-  },
-  {
-    "title": "Recreation Assistant",
-    "company": "University of Leeds",
-    "location": "Leeds England",
-    "type": "Administration",
-    "hours": "part",
-    "pay": "£1.2",
-    "close": "2026-10-12",
-    "posted": "2026-09-29",
-    "deadline": "2026-10-12",
-    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
-    "url": "https://www.jobs.ac.uk/job/DTC276/recreation-assistant",
-    "source": "jobs.ac.uk — Leeds",
-    "lat": 53.8,
-    "lng": -1.55
   }
 ]
