@@ -150,22 +150,6 @@
     "lng": -1.478
   },
   {
-    "title": "Senior Primary Care Nurse",
-    "company": "Practice Plus Group - Health in Justice",
-    "location": "Wakefield WF4 4AX",
-    "type": "Administration",
-    "hours": "part",
-    "pay": "£29,073–£32,783",
-    "close": "2026-10-16",
-    "posted": "2026-10-02",
-    "deadline": "2026-10-16",
-    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
-    "url": "https://healthcarejobsearch.co.uk/jobs/senior-primary-care-nurse-practice-plus-group-health-in-justice-e0505-26-0668",
-    "source": "Healthcare Job Search",
-    "lat": 53.712,
-    "lng": -1.478
-  },
-  {
     "title": "CAMHS Band 6 Primary Practitioner (Fixed Term 1 year)",
     "company": "South West Yorkshire Partnership NHS Trust",
     "location": "Wakefield WF1 2TJ",
@@ -335,22 +319,6 @@
     "deadline": "2026-10-30",
     "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
     "url": "https://healthcarejobsearch.co.uk/jobs/oncology-booking-clerk-the-mid-yorkshire-teaching-nhs-trust-c9377-26-0446",
-    "source": "Healthcare Job Search",
-    "lat": 53.712,
-    "lng": -1.478
-  },
-  {
-    "title": "Patient Safety Administrator",
-    "company": "The Mid Yorkshire Teaching NHS Trust",
-    "location": "Wakefield WF1 4DG",
-    "type": "Administration",
-    "hours": "full",
-    "pay": "£25,760–£27,476",
-    "close": "2026-10-16",
-    "posted": "2026-10-07",
-    "deadline": "2026-10-16",
-    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
-    "url": "https://healthcarejobsearch.co.uk/jobs/patient-safety-administrator-the-mid-yorkshire-teaching-nhs-trust-c9377-26-0436",
     "source": "Healthcare Job Search",
     "lat": 53.712,
     "lng": -1.478
@@ -662,6 +630,22 @@
     "source": "Blue Arrow",
     "posted": "7 Sep 2026",
     "deadline": "Open — starts 5 or 13 Oct"
+  },
+  {
+    "title": "Procurement Manager",
+    "company": "Leeds Arts University",
+    "location": "Leeds England",
+    "type": "Administration",
+    "hours": "full",
+    "pay": "£50,000",
+    "close": "2026-11-01",
+    "posted": "2026-10-16",
+    "deadline": "2026-11-01",
+    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
+    "url": "https://www.jobs.ac.uk/job/DTH604/procurement-manager",
+    "source": "jobs.ac.uk — Leeds",
+    "lat": 53.8,
+    "lng": -1.55
   },
   {
     "title": "Information Resources Librarian (0.5 FTE)",
