@@ -90,6 +90,22 @@
     "deadline": "23 Oct 2026"
   },
   {
+    "title": "Breakfast Club Assistant",
+    "company": "Normanton Junior Academy",
+    "location": "Normanton Yorkshire and the Humber WF6 1EY",
+    "type": "Administration",
+    "hours": "full",
+    "pay": "See live advert",
+    "close": "2026-10-21",
+    "posted": "2026-10-16",
+    "deadline": "2026-10-21",
+    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
+    "url": "https://teaching-vacancies.service.gov.uk/jobs/breakfast-club-assistant-normanton-junior-academy",
+    "source": "Teaching Vacancies",
+    "lat": 53.7,
+    "lng": -1.42
+  },
+  {
     "title": "Receptionist / Administrator",
     "company": "Ossett Surgery",
     "location": "Wakefield WF5 8DF",
@@ -336,6 +352,22 @@
     "source": "Nova — Wakefield VCSE Jobs",
     "posted": "17 Sep 2026",
     "deadline": "4 Oct 2026"
+  },
+  {
+    "title": "Community Support Team – Support Worker",
+    "company": "Wakefield Metropolitan District Council",
+    "location": "Wakefield WF1 2EB",
+    "type": "Administration",
+    "hours": "full",
+    "pay": "£31,173–£31,173",
+    "close": "2026-11-08",
+    "posted": "2026-10-17",
+    "deadline": "2026-11-08",
+    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
+    "url": "https://healthcarejobsearch.co.uk/jobs/community-support-team-support-worker-wakefield-metropolitan-district-council-lgjobs-106834",
+    "source": "Healthcare Job Search",
+    "lat": 53.712,
+    "lng": -1.478
   },
   {
     "title": "Enhanced Senior Social Worker",
