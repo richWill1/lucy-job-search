@@ -90,22 +90,6 @@
     "deadline": "23 Oct 2026"
   },
   {
-    "title": "Breakfast Club Assistant",
-    "company": "Normanton Junior Academy",
-    "location": "Normanton Yorkshire and the Humber WF6 1EY",
-    "type": "Administration",
-    "hours": "full",
-    "pay": "See live advert",
-    "close": "2026-10-22",
-    "posted": "2026-10-16",
-    "deadline": "2026-10-22",
-    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
-    "url": "https://teaching-vacancies.service.gov.uk/jobs/breakfast-club-assistant-normanton-junior-academy",
-    "source": "Teaching Vacancies",
-    "lat": 53.7,
-    "lng": -1.42
-  },
-  {
     "title": "Receptionist / Administrator",
     "company": "Ossett Surgery",
     "location": "Wakefield WF5 8DF",
@@ -244,22 +228,6 @@
     "lng": -1.478
   },
   {
-    "title": "Assistant Medical Bank Manager",
-    "company": "The Mid Yorkshire Teaching NHS Trust",
-    "location": "Wakefield WF1 4DG",
-    "type": "Administration",
-    "hours": "full",
-    "pay": "£39,959–£48,117",
-    "close": "2026-10-22",
-    "posted": "2026-10-01",
-    "deadline": "2026-10-22",
-    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
-    "url": "https://healthcarejobsearch.co.uk/jobs/assistant-medical-bank-manager-the-mid-yorkshire-teaching-nhs-trust-c9377-26-0433",
-    "source": "Healthcare Job Search",
-    "lat": 53.712,
-    "lng": -1.478
-  },
-  {
     "title": "EPRR Support Officer",
     "company": "The Mid Yorkshire Teaching NHS Trust",
     "location": "Wakefield WF1 4DG",
@@ -276,17 +244,17 @@
     "lng": -1.478
   },
   {
-    "title": "Inpatient Catering Assistant",
+    "title": "Neonatal Nurse",
     "company": "The Mid Yorkshire Teaching NHS Trust",
     "location": "Wakefield WF1 4DG",
     "type": "Administration",
     "hours": "full",
-    "pay": "£25,272–£25,272",
-    "close": "2026-10-22",
-    "posted": "2026-10-12",
-    "deadline": "2026-10-22",
+    "pay": "£32,073–£39,043",
+    "close": "2026-11-05",
+    "posted": "2026-10-23",
+    "deadline": "2026-11-05",
     "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
-    "url": "https://healthcarejobsearch.co.uk/jobs/inpatient-catering-assistant-the-mid-yorkshire-teaching-nhs-trust-c9377-26-0439",
+    "url": "https://healthcarejobsearch.co.uk/jobs/neonatal-nurse-the-mid-yorkshire-teaching-nhs-trust-c9377-26-0453",
     "source": "Healthcare Job Search",
     "lat": 53.712,
     "lng": -1.478
