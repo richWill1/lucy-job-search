@@ -258,6 +258,22 @@
     "deadline": "4 Oct 2026"
   },
   {
+    "title": "Receptionist",
+    "company": "Trinity Medical Centre",
+    "location": "Wakefield WF1 1PG",
+    "type": "Customer service",
+    "hours": "full",
+    "pay": "See live advert",
+    "close": "2026-11-06",
+    "posted": "2026-10-27",
+    "deadline": "2026-11-06",
+    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
+    "url": "https://healthcarejobsearch.co.uk/jobs/receptionist-trinity-medical-centre-a0296-26-0016",
+    "source": "Healthcare Job Search",
+    "lat": 53.712,
+    "lng": -1.478
+  },
+  {
     "title": "Community Support Team – Support Worker",
     "company": "Wakefield Metropolitan District Council",
     "location": "Wakefield WF1 2EB",
