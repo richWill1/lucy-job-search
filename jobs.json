@@ -90,22 +90,6 @@
     "lng": -1.478
   },
   {
-    "title": "Receptionist / Administrator",
-    "company": "Ossett Surgery",
-    "location": "Wakefield WF5 8DF",
-    "type": "Customer service",
-    "hours": "full",
-    "pay": "See live advert",
-    "close": "2026-11-09",
-    "posted": "2026-10-13",
-    "deadline": "2026-11-09",
-    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
-    "url": "https://healthcarejobsearch.co.uk/jobs/receptionist-administrator-ossett-surgery-a3394-26-0007",
-    "source": "Healthcare Job Search",
-    "lat": 53.712,
-    "lng": -1.478
-  },
-  {
     "title": "Administrative Assistant — Procurement",
     "company": "Outwood Grange Academies Trust",
     "location": "Wakefield WF1 2PF",
@@ -319,6 +303,22 @@
     "deadline": "Open — check live advert",
     "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
     "url": "https://healthcarejobsearch.co.uk/jobs/medical-receptionist-stanley-health-centre-adzuna-5927182481",
+    "source": "Healthcare Job Search",
+    "lat": 53.712,
+    "lng": -1.478
+  },
+  {
+    "title": "Consultant in Ophthalmology (interest in Glaucoma)",
+    "company": "The Mid Yorkshire Teaching NHS Trust",
+    "location": "Wakefield WF1 4DG",
+    "type": "Administration",
+    "hours": "full",
+    "pay": "£113,565–£150,569",
+    "close": "2026-12-07",
+    "posted": "2026-11-09",
+    "deadline": "2026-12-07",
+    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
+    "url": "https://healthcarejobsearch.co.uk/jobs/consultant-in-ophthalmology-interest-in-glaucoma-the-mid-yorkshire-teaching-nhs-trust-c9377-001670",
     "source": "Healthcare Job Search",
     "lat": 53.712,
     "lng": -1.478
@@ -844,22 +844,6 @@
     "source": "GOV.UK Teaching Vacancies",
     "posted": "25 Sep 2026",
     "deadline": "12 Oct 2026"
-  },
-  {
-    "title": "ER Services Assistant",
-    "company": "Yorkshire Ambulance Service NHS Trust",
-    "location": "Wakefield WF2 0XQ",
-    "type": "Administration",
-    "hours": "part",
-    "pay": "£25,760–£27,476",
-    "close": "2026-11-09",
-    "posted": "2026-10-29",
-    "deadline": "2026-11-09",
-    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
-    "url": "https://healthcarejobsearch.co.uk/jobs/er-services-assistant-yorkshire-ambulance-service-nhs-trust-c9174-26-0192",
-    "source": "Healthcare Job Search",
-    "lat": 53.712,
-    "lng": -1.478
   },
   {
     "title": "Operational Support Coordinator",
