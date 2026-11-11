@@ -60,6 +60,38 @@
     "lng": -1.478
   },
   {
+    "title": "23663 - MAPPA Administrator - Yorkshire and the Humber Probation Service - Leeds (Part Time:18.5hours)",
+    "company": "Leeds Jobs",
+    "location": "Wakefield / Leeds",
+    "type": "Administration",
+    "hours": "part",
+    "pay": "£28,064-£33,549",
+    "close": "Open — check live advert",
+    "posted": "2026-10-30",
+    "deadline": "Open — check live advert",
+    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
+    "url": "https://www.leedsjobs.com/job/external-apply/J4N4sakG",
+    "source": "Leeds Jobs",
+    "lat": 53.8,
+    "lng": -1.55
+  },
+  {
+    "title": "Business Support Officer - Quality Assurance",
+    "company": "Leeds Jobs",
+    "location": "Wakefield / Leeds",
+    "type": "Administration",
+    "hours": "hybrid",
+    "pay": "£27,274-£29,071",
+    "close": "Open — check live advert",
+    "posted": "Not stated",
+    "deadline": "Open — check live advert",
+    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
+    "url": "https://www.leedsjobs.com/job/external-apply/dclhLphI",
+    "source": "Leeds Jobs",
+    "lat": 53.8,
+    "lng": -1.55
+  },
+  {
     "title": "Case Administrator — Probation Service",
     "company": "Ministry of Justice",
     "location": "Wakefield WF1 2TS",
@@ -400,22 +432,6 @@
     "source": "Nova — Wakefield VCSE Jobs",
     "posted": "17 Sep 2026",
     "deadline": "4 Oct 2026"
-  },
-  {
-    "title": "Receptionist",
-    "company": "Trinity Medical Centre",
-    "location": "Wakefield WF1 1PG",
-    "type": "Customer service",
-    "hours": "full",
-    "pay": "See live advert",
-    "close": "2026-11-10",
-    "posted": "2026-11-04",
-    "deadline": "2026-11-10",
-    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
-    "url": "https://healthcarejobsearch.co.uk/jobs/receptionist-trinity-medical-centre-a0296-26-0017",
-    "source": "Healthcare Job Search",
-    "lat": 53.712,
-    "lng": -1.478
   },
   {
     "title": "Business Change Manager",
@@ -888,6 +904,38 @@
     "deadline": "Open — starts 5 or 13 Oct"
   },
   {
+    "title": "Business Support Officer - Quality Assurance",
+    "company": "Bradford Children and Families Trust",
+    "location": "Bradford BD5 0QL en BD5 0QL",
+    "type": "Administration",
+    "hours": "hybrid",
+    "pay": "£27,274–£29,071",
+    "close": "2026-11-14",
+    "posted": "2026-10-31",
+    "deadline": "2026-11-14",
+    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
+    "url": "https://www.leedsjobs.com/job/dclhLphI/business-support-officer-quality-assurance",
+    "source": "Leeds Jobs",
+    "lat": 53.795,
+    "lng": -1.735
+  },
+  {
+    "title": "MAPPA Administrator - Yorkshire and the Humber Probation Service - Leeds (Part Time:18.5hours)",
+    "company": "HM Prison & Probation Service",
+    "location": "Leeds en",
+    "type": "Administration",
+    "hours": "part",
+    "pay": "£20,001–£40,000",
+    "close": "2026-11-14",
+    "posted": "2026-10-31",
+    "deadline": "2026-11-14",
+    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
+    "url": "https://www.leedsjobs.com/job/J4N4sakG/mappa-administrator-yorkshire-and-the-humber-probation-service-leeds-part-time185hours",
+    "source": "Leeds Jobs",
+    "lat": 53.8,
+    "lng": -1.55
+  },
+  {
     "title": "Information Resources Librarian (0.5 FTE)",
     "company": "Leeds Beckett University",
     "location": "Leeds",
@@ -998,21 +1046,5 @@
     "source": "jobs.ac.uk",
     "posted": "25 Sep 2026",
     "deadline": "9 Oct 2026"
-  },
-  {
-    "title": "Numismatics Internship",
-    "company": "University of Leeds",
-    "location": "Leeds England",
-    "type": "Administration",
-    "hours": "full",
-    "pay": "£13.87",
-    "close": "2026-11-10",
-    "posted": "2026-10-28",
-    "deadline": "2026-11-10",
-    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
-    "url": "https://www.jobs.ac.uk/job/DTL261/numismatics-internship",
-    "source": "jobs.ac.uk — Leeds",
-    "lat": 53.8,
-    "lng": -1.55
   }
 ]
