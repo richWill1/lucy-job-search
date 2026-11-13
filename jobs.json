@@ -76,6 +76,22 @@
     "lng": -1.55
   },
   {
+    "title": "Business Support Officer - Learning & Development",
+    "company": "Leeds Jobs",
+    "location": "Wakefield / Leeds",
+    "type": "Administration",
+    "hours": "hybrid",
+    "pay": "£27,274-£29,071",
+    "close": "Open — check live advert",
+    "posted": "Not stated",
+    "deadline": "Open — check live advert",
+    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
+    "url": "https://www.leedsjobs.com/job/external-apply/GyKC42CS",
+    "source": "Leeds Jobs",
+    "lat": 53.8,
+    "lng": -1.55
+  },
+  {
     "title": "Business Support Officer - Quality Assurance",
     "company": "Leeds Jobs",
     "location": "Wakefield / Leeds",
@@ -122,6 +138,22 @@
     "lng": -1.478
   },
   {
+    "title": "School Attendance Officer",
+    "company": "Outwood Academy City Fields",
+    "location": "Wakefield Yorkshire and the Humber WF1 4SF",
+    "type": "Administration",
+    "hours": "full",
+    "pay": "See live advert",
+    "close": "2026-11-26",
+    "posted": "2026-11-12",
+    "deadline": "2026-11-26",
+    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
+    "url": "https://teaching-vacancies.service.gov.uk/jobs/school-attendance-officer-a2c32571-8c87-456e-945f-48de729c3dcf",
+    "source": "Teaching Vacancies",
+    "lat": 53.712,
+    "lng": -1.478
+  },
+  {
     "title": "Administrative Assistant — Procurement",
     "company": "Outwood Grange Academies Trust",
     "location": "Wakefield WF1 2PF",
@@ -152,22 +184,6 @@
     "lng": -1.478
   },
   {
-    "title": "Work Placement Coordinator",
-    "company": "Outwood Grange Academy",
-    "location": "Wakefield Yorkshire and the Humber WF1 2PF",
-    "type": "Administration",
-    "hours": "full",
-    "pay": "See live advert",
-    "close": "2026-11-12",
-    "posted": "2026-10-29",
-    "deadline": "2026-11-12",
-    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
-    "url": "https://teaching-vacancies.service.gov.uk/jobs/work-placement-coordinator-outwood-grange-academy-wakefield-west-yorkshire",
-    "source": "Teaching Vacancies",
-    "lat": 53.712,
-    "lng": -1.478
-  },
-  {
     "title": "Administrator, Coder and Summariser",
     "company": "Outwood Park Medical Centre",
     "location": "Wakefield WF1 2PE",
@@ -180,22 +196,6 @@
     "source": "Healthcare Job Search / NHS Jobs",
     "posted": "21 Sep 2026",
     "deadline": "2 Oct 2026"
-  },
-  {
-    "title": "Primary Care Nurse",
-    "company": "Practice Plus Group - Health in Justice",
-    "location": "Wakefield WF4 4AX",
-    "type": "Administration",
-    "hours": "full",
-    "pay": "£34,428–£41,659",
-    "close": "2026-11-12",
-    "posted": "2026-10-29",
-    "deadline": "2026-11-12",
-    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
-    "url": "https://healthcarejobsearch.co.uk/jobs/primary-care-nurse-practice-plus-group-health-in-justice-e0505-26-0942",
-    "source": "Healthcare Job Search",
-    "lat": 53.712,
-    "lng": -1.478
   },
   {
     "title": "Primary Care Nurse",
@@ -225,6 +225,22 @@
     "deadline": "2026-11-26",
     "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
     "url": "https://healthcarejobsearch.co.uk/jobs/primary-care-nurse-practice-plus-group-health-in-justice-e0505-26-1028",
+    "source": "Healthcare Job Search",
+    "lat": 53.712,
+    "lng": -1.478
+  },
+  {
+    "title": "Primary Care Nurse",
+    "company": "Practice Plus Group - Health in Justice",
+    "location": "Wakefield WF2 9AG",
+    "type": "Administration",
+    "hours": "full",
+    "pay": "£34,428–£41,659",
+    "close": "2026-11-25",
+    "posted": "2026-11-13",
+    "deadline": "2026-11-25",
+    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
+    "url": "https://healthcarejobsearch.co.uk/jobs/primary-care-nurse-practice-plus-group-health-in-justice-e0505-26-1103",
     "source": "Healthcare Job Search",
     "lat": 53.712,
     "lng": -1.478
@@ -902,6 +918,22 @@
     "source": "Blue Arrow",
     "posted": "7 Sep 2026",
     "deadline": "Open — starts 5 or 13 Oct"
+  },
+  {
+    "title": "Business Support Officer - Learning & Development",
+    "company": "Bradford Children and Families Trust",
+    "location": "Bradford BD5 0QL en BD5 0QL",
+    "type": "Administration",
+    "hours": "hybrid",
+    "pay": "£27,274–£29,071",
+    "close": "2026-11-14",
+    "posted": "2026-10-31",
+    "deadline": "2026-11-14",
+    "fit": "Daily-scraped vacancy matching the search criteria. Check the live advert and person specification before applying.",
+    "url": "https://www.leedsjobs.com/job/GyKC42CS/business-support-officer-learning-development",
+    "source": "Leeds Jobs",
+    "lat": 53.795,
+    "lng": -1.735
   },
   {
     "title": "Business Support Officer - Quality Assurance",
