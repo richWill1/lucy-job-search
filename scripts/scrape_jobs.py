@@ -9,7 +9,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / "jobs.json"
 
 SOURCES = [
-    ("Teaching Vacancies", "https://teaching-vacancies.service.gov.uk/jobs?location=wakefield", "/jobs/"),
+    ("Teaching Vacancies", "https://teaching-vacancies.service.gov.uk/jobs?location=wakefield&support_job_roles%5B%5D=administration_hr_data_and_finance", "/jobs/"),
+    ("Teaching Vacancies — Leeds", "https://teaching-vacancies.service.gov.uk/jobs?location=leeds&support_job_roles%5B%5D=administration_hr_data_and_finance", "/jobs/"),
     ("Healthcare Job Search", "https://healthcarejobsearch.co.uk/jobs?location=Wakefield", "/jobs/"),
     ("Wakefield VCSE / Nova", "https://www.nova-wd.org.uk/nova/jobs", "/jobs/"),
     ("Leeds Jobs", "https://www.leedsjobs.com/jobs/admin-secretarial-pa-office", "/job/"),
@@ -17,8 +18,8 @@ SOURCES = [
 ]
 
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; LucyJobSearch/1.0; +https://lucy-job-search.onrender.com)"}
-ALLOWED = re.compile(r"\b(administrator|administration|admin|receptionist|reception|customer service|library|librarian|finance assistant|accounts|procurement|hr officer|human resources|personal assistant|business support|office|coordinator|support officer|research administrator|clerical|pa)\b", re.I)
-EXCLUDED = re.compile(r"\b(teaching assistant|ta\b|send|special educational needs|classroom|teacher|lecturer|teaching|pupil support|learning support assistant|pastoral support|one[- ]to[- ]one|1:1)\b", re.I)
+ALLOWED = re.compile(r"(?:admin|reception|clerk|coordinator|co-ordinator|attendance|office|customer service|library|librar|business support|payroll|finance assistant|personal assistant|care navigator|ward clerk|patient flow|care coordinator|procurement|support officer)", re.I)
+EXCLUDED = re.compile(r"(?:teaching assistant|teacher|\bSEND\b|\bSEN\b|SENDCo|learning mentor|nurse|therapist|consultant|medical director|assistant cook|cook|designer|housekeeping|care assistant|care worker|support worker|clinical|fundraising manager|operations director)", re.I)
 LOC = re.compile(r"\b(wakefield|leeds|normanton|ossett|castleford|pudsey|bradford|west yorkshire|remote)\b", re.I)
 
 def clean(s):
@@ -60,7 +61,7 @@ def parse_job(url, source):
         loc = j.get("jobLocation") or {}
         if isinstance(loc, list): loc = loc[0] if loc else {}
         addr = loc.get("address", {}) if isinstance(loc, dict) else {}
-        location = clean(" ".join(str(addr.get(k,"")) for k in ("addressLocality","addressRegion","postalCode"))) or "Wakefield / Leeds"
+        location = clean(" ".join(str(addr.get(k,"")) for k in ("addressLocality","addressRegion","postalCode"))) or ""
         salary = j.get("baseSalary") or {}
         pay = ""
         if isinstance(salary, dict):
@@ -76,7 +77,7 @@ def parse_job(url, source):
         close = valid[:10] if isinstance(valid, str) else ""
         posted = j.get("datePosted")
         posted = posted[:10] if isinstance(posted, str) else ""
-        if not title or not ALLOWED.search(title + " " + desc) or EXCLUDED.search(title + " " + desc) or not LOC.search(location):
+        if not title or not ALLOWED.search(title) or EXCLUDED.search(title) or not LOC.search(location) or not re.fullmatch(r"20\d\d-\d\d-\d\d", close) or close <= datetime.now(timezone.utc).date().isoformat():
             return None
         lat, lng = infer_coords(location)
         return {
@@ -120,23 +121,25 @@ def main():
     for url, job in found.items():
         merged[url] = job
 
-    # Remove jobs whose explicit closing date has passed.
-    today = datetime.now(timezone.utc).date()
+    # Require a confirmed ISO closing date and a relevant non-clinical role.
+    # Unverified 'open' listings, including legacy text dates, must not linger forever.
+    today = datetime.now(timezone.utc).date().isoformat()
     clean_jobs = []
     for job in merged.values():
-        close = str(job.get("close",""))
-        m = re.search(r"(20\d\d)-(\d\d)-(\d\d)", close)
-        if m:
-            try:
-                if datetime.strptime(m.group(0), "%Y-%m-%d").date() < today:
-                    continue
-            except ValueError:
-                pass
+        title = str(job.get("title", ""))
+        close = str(job.get("deadline") or job.get("close") or "")
+        if not ALLOWED.search(title) or EXCLUDED.search(title):
+            continue
+        if not re.fullmatch(r"20\d\d-\d\d-\d\d", close):
+            continue
+        if close <= today:
+            continue
+        job["deadline"] = job["close"] = close
         clean_jobs.append(job)
 
-    clean_jobs.sort(key=lambda j: (0 if re.search(r"wakefield|wf3|wf1|wf2|wf6", j.get("location",""), re.I) else 1, j.get("company",""), j.get("title","")))
-    if len(clean_jobs) < 8:
-        raise SystemExit("Scrape returned too few usable roles; preserving the previous jobs.json rather than publishing a broken feed.")
+    clean_jobs.sort(key=lambda j: (j.get("deadline", "9999-12-31"),
+        0 if re.search(r"wakefield|wf3|wf1|wf2|wf6", j.get("location",""), re.I) else 1,
+        j.get("company",""), j.get("title","")))
     DATA.write_text(json.dumps(clean_jobs, ensure_ascii=False, indent=2) + "\n")
 
 if __name__ == "__main__":
